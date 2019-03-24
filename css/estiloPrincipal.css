@@ -1,0 +1,13 @@
+/*Lo unico que voy a hacer en esta hoja de estilo es normalizar el CSS*/
+/*La idea de normalizar/resetear el CSS es debido a que algunos navegadores
+tienen estilos por defecto, por ejemplo tiene cierto padding o margin. Con
+el reset, el desarrollador toma el control de como se van a visualizar
+los elementos de la pagina web.
+Mas info: https://es.wikipedia.org/wiki/Reset_CSS */
+
+* {
+
+	margin: 0px;
+	padding: 0px;
+
+}

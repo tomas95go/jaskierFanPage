@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<!--
+
+	Charset = UTF-8 asegura que el archivo HTML acepte diversos caracteres,
+	como los que estan incluidos en el idioma español (acentos, ñ,etc).
+	Mas info: https://www.w3schools.com/tags/att_meta_charset.asp
+
+	 -->
+	<meta charset="UTF-8">
+
+	<meta name="description" content="Free Web tasdsadsadsadrials">
+
+	<!--
+
+	El meta tag de viewport es para ayudar a la pagina web a que sea
+	responsiva, adapatandose a las pantallas, de igual manera, se debe
+	agregar propiedades CSS como Flexbox y Grid para hacer una pagina
+	100% responsiva.
+	Mas info: https://www.w3schools.com/tags/tag_meta.asp
+
+	-->	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>The Witcher: Jaskier Fan Page</title>
+
+	<!-- Los tag de css usualmente van al principio debido a que estos se cargan al
+	mismo tiempo que el DOM mas info: https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10 -->
+
+	<!-- Cargando CSS principal -->
+
+	<link rel="stylesheet" type="text/css" href="css/estiloPrincipal.css">
+
+	<!-- Cargando CSS de la navbar -->
+
+	<link rel="stylesheet" type="text/css" href="css/estilobnSticky.css">
+
+	<!-- Cargando CSS Bienvenida-->
+
+	<link rel="stylesheet" type="text/css" href="css/estiloBienvenida.css">
+
+	<!-- Cargando CSS Presentacion-->
+
+	<link rel="stylesheet" type="text/css" href="css/estiloPresentacion.css">
+
+	<!-- Cargando CSS Caracteristicas-->
+
+	<link rel="stylesheet" type="text/css" href="css/estiloCaracteristicas.css">
+
+	<!-- Cargando CSS Galeria de Imagenes-->
+
+	<link rel="stylesheet" type="text/css" href="css/estiloGaleriaImagenes.css">
+
+	<!-- Cargando CSS Contacto-->
+
+	<link rel="stylesheet" type="text/css" href="css/estiloContacto.css">
+
+	<!-- Cargando CSS Footer-->
+
+	<link rel="stylesheet" type="text/css" href="css/estiloFooter.css">
+
+</head>
+
+<body>
+
+	<!--bnSticky = Barra de Navegacion Sticky -->
+
+	<nav class="bnSticky">
+		
+		<a>Landing Page(Presentacion)</a>
+
+		<a>Caracteristicas</a>
+
+		<a>Galeria de imagenes</a>
+
+	<!-- emDerecha = Empujar Derecha -->	
+
+		<a class="emDerecha">Contacto</a>
+
+	</nav>
+
+	<!-- eBienvenida = Estilo Bienvenida -->
+
+	<div class="eBienvenida">
+		
+		<h1>Titulo</h1>
+		<p>Descripcion(opcional)</p>
+
+	</div>
+
+	<!-- ePresentacion = Estilo Presentacion -->
+
+	<div class="ePresentacion">
+		
+		<span>Presentacion(Aqui es donde ira el background que cambia de imagenes)</span>
+		<span>Podemos hacer una intro a cerca de quienes somos y porque hacemos esto 
+		o una intro del personaje Jaskier</span>
+
+	</div>
+
+	<!-- eCaracteristicas = Estilo Caracteristicas -->
+
+	<div class="eCaracteristicas">
+		
+		<span>Aqui ira una lista de las caracteristicas del personaje y si podemos conseguir iconos mejor</span>
+		<span>podriamos contar algunas curiosidades tambien</span>
+
+	</div>
+
+	<!--eGImagenes = Estilo Galeria de Imagenes -->
+
+	<div class="eGImagenes">
+		
+		<span>Aqui ira la galeria de imagenes con un slider</span>
+
+	</div>
+
+	<!--eContacto = Estilo Contacto -->
+
+	<div class="eContacto">
+		
+		<span>Esta seccion es para poner nuestro contacto, por ejemplo: LinkedIn o GitHub
+		podemos usar iconos, sino podemos agregar un formulario.</span>
+
+	</div>
+
+	<!--eFooter = Estilo Footer -->
+
+	<footer class="eFooter">Por ultimo el footer</footer>
+
+	<!-- Los tag de script usualmente van al final debido a que estos interrumpen el
+	cargado de la pagina, mas info: https://blog.logrocket.com/how-browser-rendering-works-behind-the-scenes-6782b0e8fb10 -->
+
+	<script type="text/javascript" src=""></script>
+
+</body>
+
+</html>

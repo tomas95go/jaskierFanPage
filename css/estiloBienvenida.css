@@ -4,7 +4,9 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	background: url("img/jaskierIntro.png");
+	background-position: center center;
 	background-size: cover;
+	background-attachment: fixed;
 	font-family: 'Germania One', cursive;
 	color: white;
 	height: 90vh;	
@@ -25,7 +27,7 @@
 	font-size: 0.8em;
 	cursor: pointer;
 	padding: 0.4em 0.7em;
-	margin: 0.5em 0em 0.5em 7em;
+	margin: 1vw 0vw 1vw 14vw;
 }
 
 #actionBtn:hover {

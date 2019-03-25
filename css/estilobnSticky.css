@@ -1,6 +1,9 @@
 .bnSticky{
 
-	background-color: black;
+	display: flex;
+	align-items: center;
+	background-color: #2D0238;
 	color: #FFF8F8;
+	height: 10vh;
 
 }

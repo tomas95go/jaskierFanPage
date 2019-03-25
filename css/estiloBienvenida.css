@@ -1,5 +1,33 @@
 .eBienvenida{
 
-	background-color: red;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	background: url("img/jaskierIntro.png");
+	background-size: cover;
+	font-family: 'Germania One', cursive;
+	color: white;
+	height: 90vh;	
+	font-size: 2em;
 
+}
+
+.titulo {
+	padding: 10vw 10vw;
+}
+
+#actionBtn  {
+	font-family: 'Germania One', cursive;
+	color: white;
+	background: #2D1657;
+	text-align: center;
+	border: none;
+	font-size: 0.8em;
+	cursor: pointer;
+	padding: 0.4em 0.7em;
+	margin: 0.5em 0em 0.5em 7em;
+}
+
+#actionBtn:hover {
+	background: #18063A;
 }

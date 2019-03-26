@@ -1,6 +1,60 @@
 .eCaracteristicas{
-
-	background-color: black;
+	display: flex;
+	justify-content: center;
+	background-color: #333333;
 	color: white;
-
 }
+
+#charContainer {
+	width: 80vw;
+	padding: 5vh 0vh;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-rows: 1fr;
+	grid-gap: 20px;
+	justify-items: center;
+	align-items: center;
+}
+
+#charContainer h1{
+	font-family: 'Germania One', cursive;
+	color: #9B73A9;
+}
+
+#Jaskier1 {
+	width: 15vw;
+	height: auto;
+}
+.textRight {
+	grid-column: 2 / end;
+	font-size: 1.3em;
+}
+
+.textLeft {
+	grid-column: 1 / -2;
+	font-size: 1.3em;
+}
+
+#Jaskier2 {
+	grid-column-end: -1;
+	width: 20vw;
+	height: auto;
+}
+
+@media only screen and (max-width: 525px) {
+	[class*="textRight"] {
+		grid-column: auto;
+		font-size: 0.6em;
+		text-align: justify;
+	}
+	[class*="textLeft"] {
+		grid-column: auto;
+		font-size: 0.6em;
+		text-align: justify;
+	}
+	[id*="Jaskier2"] {
+		grid-row-start: 3;
+	}
+}
+
+

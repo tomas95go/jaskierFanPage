@@ -1,9 +1,42 @@
 .bnSticky{
 
 	display: flex;
-	align-items: center;
-	background-color: #2D0238;
-	color: #FFF8F8;
-	height: 10vh;
+	top: 0;
+	background-color: #16063A;
+	border-bottom: 3px solid white;
+	position: sticky;
 
+}
+
+.aNavBar{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 30px;
+
+}
+
+.aNavBar:hover{
+
+	background-color: #2B1657;
+	color: #D2A207;
+	border-left: 5px solid #D2A207;
+
+}
+
+.emDerecha{
+
+	margin-left: auto;
+
+}
+
+@media only screen and (max-width:600px)  {
+
+	.aNavBar{
+
+		font-size: 0.9em;
+		padding: 1px;
+
+	}
+	
 }

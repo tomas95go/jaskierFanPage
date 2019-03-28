@@ -4,7 +4,7 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	background-image: url("../imagenes/jaskierSprite.png");
-	background-position: 0% 80%;
+	background-position: 0%;
 	background-size: cover;
 	font-family: 'Germania One', cursive;
 	color: white;
@@ -38,19 +38,47 @@
 }
 
 @keyframes deslizarBackGround{
-  20% {
+  6.6%,20% {
     background-position: 0%;
   }
-  40% {
+  26.5%,40% {
 	background-position: 25%;
   }
-  60% {
+  46.4%,60% {
 	background-position: 50%;
   }
-  80% {
+  66.3%,80% {
 	background-position: 75%;
   }
-  100% {
+  86.26%,100% {
 	background-position: 100%;
   }
+}
+
+@media only screen and (max-width: 600px) {
+
+	.eBienvenida{
+	
+		background-position: 6.5%;
+
+	}
+
+	@keyframes deslizarBackGround{
+	  6.6%,20% {
+	    background-position: 6.5%;
+	  }
+	  26.5%,40% {
+		background-position: 35%;
+	  }
+	  46.4%,60% {
+		background-position: 50%;
+	  }
+	  66.3%,80% {
+		background-position: 69%;
+	  }
+	  86.26%,100% {
+		background-position: 97%;
+	  }
+	}
+	
 }

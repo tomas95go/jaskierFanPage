@@ -3,14 +3,18 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	background: url("img/jaskierIntro.png");
-	background-position: center center;
+	background-image: url("../imagenes/jaskierSprite.png");
+	background-position: 0% 80%;
 	background-size: cover;
 	font-family: 'Germania One', cursive;
 	color: white;
 	height: 90vh;	
 	font-size: 2em;
-
+	/*Abreviar sentencia animacion: animation-name,
+	animation-duration, animation-timing-function,
+	animation-delay,animation-iteration-count,
+	animation-direction,animation-fill-mode*/ 
+	animation: deslizarBackGround 30s ease-in-out 1ms infinite forwards;
 }
 
 .titulo {
@@ -31,4 +35,22 @@
 
 #actionBtn:hover {
 	background: #18063A;
+}
+
+@keyframes deslizarBackGround{
+  20% {
+    background-position: 0%;
+  }
+  40% {
+	background-position: 25%;
+  }
+  60% {
+	background-position: 50%;
+  }
+  80% {
+	background-position: 75%;
+  }
+  100% {
+	background-position: 100%;
+  }
 }

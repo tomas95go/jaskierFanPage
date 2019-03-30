@@ -1,8 +1,33 @@
 .eFooter{
 
-	display: flex;
+	display: grid;
+	text-align: center;
+	font-size: 0.7em;
 	background-color: black;
 	color:  white;
+
+}
+
+.avisosLegales{
+
+	padding: 10px;
+	grid-column: 1/span 2;
+
+}
+
+.creadoresFanPage{
+
+	padding: 10px;
+	grid-column: 1;
+	grid-row: 2;
+	
+}
+
+.infoAdicional{
+
+	padding: 10px;
+	grid-column: 2;
+	grid-row: 2;
 
 }
 
@@ -10,7 +35,7 @@
 
 		.eFooter{
 
-		font-size: 0.8em;
+		font-size: 0.5em;
 
 	}
 	

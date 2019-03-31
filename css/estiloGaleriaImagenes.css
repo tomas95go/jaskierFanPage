@@ -1,5 +1,32 @@
-.eGImagenes{
-
-	background-color: red;
-
+a {
+	text-decoration: none;
+ 	display: inline-block;
+  	padding: 8px 16px;
 }
+
+.eGImagenes img {
+	display: none;
+	width: 100%;
+}
+
+.galeryContainer {
+	position: relative;
+}
+
+.round {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	background-color: #f1f1f1;
+  	color: black;
+}
+
+.round:hover {
+	background-color: gray;
+}
+
+#next {
+	right: 0%;
+}
+

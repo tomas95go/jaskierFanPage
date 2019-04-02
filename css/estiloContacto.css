@@ -1,5 +1,77 @@
 .eContacto{
 
-	background-color: blue;
+	text-align: center;
+	padding: 30px;
+	
+
+}
+
+.tituloFormContacto{
+
+	padding-bottom: 50px;
+
+}
+
+.mc-field-group{
+
+	display: grid;
+	justify-content: center;
+	padding-bottom: 30px;
+
+}
+
+#mce-EMAIL{
+
+	width: auto;
+
+}
+
+#mce-FNAME{
+
+	width: auto;
+
+}
+
+#mce-LNAME{
+
+	width: auto;
+
+}
+
+.buttonForm{
+	
+	background-color: #170155;
+    color: white;
+    cursor: pointer;
+	padding: 1em 1.5em;
+
+}
+
+.buttonForm:hover{
+	
+	 background-color: #470EE6;	
+	 color: white;
+	 padding: 1em 1.5em;
+	 text-decoration: none;
+	 text-transform: uppercase;
+
+}
+
+.logosContacto{
+
+	padding-top: 25px;
+
+}
+
+.linkGHContacto{
+
+	color: #938DA3;
+	font-size: 1.5em;
+
+}
+
+.linkGHContacto:hover{
+
+	color: #470EE6;
 
 }
